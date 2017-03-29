@@ -108,6 +108,8 @@ def print_board():
         print()
     print()
 
+LUT3 = ()
+
 NUM_TILES = 4
 board = [Tile(num % NUM_TILES, num // NUM_TILES) for num in range(NUM_TILES * NUM_TILES)]
 # board[0].set_value(3)
